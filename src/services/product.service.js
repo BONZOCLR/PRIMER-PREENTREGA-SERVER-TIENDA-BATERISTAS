@@ -101,3 +101,7 @@ class ProductService {
         }
     }
 }
+
+export const productService = new ProductService({
+    path: "./db/product.json",
+});
